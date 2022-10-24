@@ -1,0 +1,269 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: rgb(242, 138, 11);
+}
+
+.lead {
+    font-size: 20px;
+}
+
+#navber {
+    background: black;
+    color: white;
+    overflow: outo;
+    background:rgb(12, 11, 11);
+}
+
+#navber a {
+    color: white;
+}
+
+#navber h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navber ul {
+    list-style: none;
+    float: right;
+}
+
+#navber ul li {
+    float:left;
+}
+
+#navber ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center
+}
+
+#navber ul li a:hover,
+#navber ul li a.corrent {
+    background: rgb(39, 39, 39);
+    color: rgb(246, 169, 3)
+}
+
+#showcase {
+    background: url("./img/showcase.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: blue;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: pink;
+    color: black;
+}
+
+.bg-dark{
+    background: rgb(239, 239, 228);
+    color: rgb(50, 49, 49);
+}
+
+.bg-light{
+    background: rgb(237, 237, 230);
+    color: rgb(43, 41, 41);
+}
+
+.bg-primary{
+    background: rgb(240, 198, 46);
+    color: rgb(50, 49, 49);
+}
+
+.clr{
+    clear: both;
+}
+
+.l-heading{
+    font-size: 40px;
+}
+
+/* padding */
+.py-1{padding: 10px;}
+.py-2{padding: 20px;}
+.py-3{padding: 30px;}
+
+#home-info{
+    height: 400px;
+    /* background: grey; */
+}
+
+#home-info .info-img{
+    width: 50%;
+    float:left;
+    background: url("./img/photo-1.jpg") no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    width: 50%;
+    text-align: center;
+    float:left;
+    /* padding: ; */
+}
+#home-info .info-content P{
+    padding-bottom: 50px;
+}
+
+.box{
+    float:left;
+    width:33.3%;
+    padding:30px;
+    text-align: center;
+    /* height: 200px; */
+}
+
+.box i{
+    margin-bottom:10px;
+}
+
+/* about hotel */
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+    /* background: red; */
+    /* opacity: 0; */
+}
+
+/* #about-info .info-right{
+    background: red;
+} */
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* testimonials */
+#testimonials{
+    height: 600px;
+    background: url("./img/test-bg.jpg") no-repeat center center/cover;
+    padding-top: 40px;
+}
+
+#testimonials  h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    height: 150px;
+    border-radius: 5%;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img{
+    width: 100px;
+    float:left;
+    margin-right:20px;
+    border-radius: 50%;
+}
+
+/* contact */
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,#contact-form textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px black solid;
+}
+
+#contact-form input,
+#contact-form textarea{
+    /* outline:none; */
+
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+/* main-footer */
+#main-footer{
+    background: rgb(79, 78, 78);
+    color: white;
+    padding:10px;
+}
+
+
