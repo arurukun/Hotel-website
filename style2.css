@@ -115,8 +115,8 @@ p {
 }
 
 .bg-dark{
-    background: rgb(239, 239, 228);
-    color: rgb(50, 49, 49);
+    background: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
 }
 
 .bg-light{
@@ -169,6 +169,7 @@ p {
     width:33.3%;
     padding:30px;
     text-align: center;
+    /* color: aliceblue; */
     /* height: 200px; */
 }
 
@@ -251,17 +252,22 @@ p {
 
 #contact-form input,
 #contact-form textarea{
-    /* outline:none; */
-
+    outline:none;
+    color: rgb(133, 34, 34);
+    border-color: rgb(189, 124, 124);
 }
 
 #contact-form textarea{
     height: 200px;
 }
 
+#contact-info .box{
+    color: aliceblue;
+}
+
 /* main-footer */
 #main-footer{
-    background: rgb(79, 78, 78);
+    background: rgb(0, 0, 0);
     color: white;
     padding:10px;
 }
