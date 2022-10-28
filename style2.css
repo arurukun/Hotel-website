@@ -44,8 +44,7 @@ p {
 #navber {
     background: black;
     color: white;
-    overflow: outo;
-    background:rgb(12, 11, 11);
+    overflow: auto;
 }
 
 #navber a {

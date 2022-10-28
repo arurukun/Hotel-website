@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="" rel="noopener">
+  <a href="https://arurukun.github.io/Hotel-website/hotel.html" rel="noopener">
  <img src="./img/Screenshot(4).png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Hotel Website</h3>
+<h3 align="center"> <a href="https://arurukun.github.io/Hotel-website/hotel.html"> Hotel Website </a> </h3>
 
 <div align="center">
 
