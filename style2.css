@@ -83,7 +83,7 @@ p {
 }
 
 #showcase .showcase-content {
-    color: blue;
+    color: white;
     text-align: center;
     padding-top: 170px;
 }
@@ -102,15 +102,15 @@ p {
     display: inline-block;
     font-size: 18px;
     color: white;
-    background: black;
+    background: orange;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
 }
 
 .btn:hover {
-    background: pink;
-    color: black;
+    background: white;
+    color: orange;
 }
 
 .bg-dark{
